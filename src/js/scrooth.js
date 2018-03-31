@@ -1,6 +1,6 @@
 class Scrooth {
   constructor(options) {
-    const config = {...options}
+    const config = [...options];
     this.element = config.element || window;
     this.distance = config.strength || 10;
     this.acceleration = config.acceleration || 1.5;
