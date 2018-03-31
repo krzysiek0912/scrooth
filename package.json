@@ -1,10 +1,10 @@
 {
-  "name": "smroll",
+  "name": "scrooth",
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
   "scripts": {
-    "build": "babel assets/js/lavalamp.js -o dist/lavalamp.js"
+    "build": "babel src/js/scrooth.js -o dist/scrooth.js"
   },
   "author": "",
   "license": "MIT",
