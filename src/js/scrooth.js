@@ -6,8 +6,8 @@ class Scrooth {
     this.deceleration = deceleration;
     this.running = false;
 
-    this.element.addEventListener('wheel', this.scrollHandler.bind(this));
-    this.element.addEventListener('mousewheel', this.scrollHandler.bind(this));
+    this.element.addEventListener('wheel', this.scrollHandler.bind(this), {passive: false});
+    this.element.addEventListener('mousewheel', this.scrollHandler.bind(this), {passive: false});
     this.scroll = this.scroll.bind(this);
   }
 
